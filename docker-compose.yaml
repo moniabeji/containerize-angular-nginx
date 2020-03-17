@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+ angular:
+   container_name: angular_with_nginx
+   build: .
+   ports: 
+      - '8888:80'
